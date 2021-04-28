@@ -24,7 +24,7 @@ namespace login.app.System.User
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
-            config = config;
+            _config = config;
         }
         public async Task<string> Authencate(loginRequest request)
         {
@@ -38,8 +38,8 @@ namespace login.app.System.User
             var roles =await _userManager.GetRolesAsync(user); 
             var claims = new[]
             {
-                new Claim(ClaimTypes.Email ,user.email),
-                new Claim(ClaimTypes.GivenName,user.firstName),
+                new Claim(ClaimTypes.Email ,user.UserName),
+                new Claim(ClaimTypes.GivenName,user.Firstname),
                 new Claim(ClaimTypes.Role,string.Join(";",roles))
             };
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"]));
@@ -58,12 +58,11 @@ namespace login.app.System.User
         {
             var user = new AppUser()
             {
-                dob = request.dob,
-                email = request.Email,
-                firstName = request.firstName,
-                lastName = request.lastName,
-                userName = request.userName,
-                password = request.password
+                UserName = request.userName,
+                Firstname = request.firstName,
+                Lastname = request.lastName,
+                PhoneNumber = request.phoneNumber,
+                Email = request.Email
             };
             var result = await _userManager.CreateAsync(user, request.password);
             if (result.Succeeded)

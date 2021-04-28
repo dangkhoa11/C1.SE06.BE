@@ -70,3 +70,6 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\obj\Debug\netcoreapp3.1\
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\obj\Debug\netcoreapp3.1\login.app.csproj.CopyComplete
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\obj\Debug\netcoreapp3.1\login.app.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\obj\Debug\netcoreapp3.1\login.app.pdb
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\bin\Debug\netcoreapp3.1\login.app.runtimeconfig.json
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\bin\Debug\netcoreapp3.1\login.app.runtimeconfig.dev.json
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.app\obj\Debug\netcoreapp3.1\login.app.genruntimeconfig.cache

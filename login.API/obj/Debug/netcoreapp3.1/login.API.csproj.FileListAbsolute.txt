@@ -377,3 +377,5 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\obj\Debug\netcoreapp3.1\
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\obj\Debug\netcoreapp3.1\login.API.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\obj\Debug\netcoreapp3.1\login.API.pdb
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\obj\Debug\netcoreapp3.1\login.API.genruntimeconfig.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\System.Data.Entity.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\System.Data.Entity.xml

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uUSVckzH6Rc8zmcoRWhWXC8rQGhgc5xMGTCb4bDIufld3Box6+gh4CANYyvXXLOiG8/3Yl4HLqWpLGm54GJcmA==",
+  "dgSpecHash": "kRFM/u4tB53oHPq4RwZK2D4enaoeytIqOKALd9Tr7dJD3vOPf0CyxPriE6LdZ5GWSvGNNA/xPXIUCUFnKXbfuA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\Son\\.nuget\\packages\\google.apis\\1.36.1\\google.apis.1.36.1.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\google.apis.auth\\1.36.1\\google.apis.auth.1.36.1.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\google.apis.core\\1.36.1\\google.apis.core.1.36.1.nupkg.sha512",
+    "C:\\Users\\Son\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\identityserver4\\4.1.2\\identityserver4.4.1.2.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\identityserver4.entityframework\\4.1.2\\identityserver4.entityframework.4.1.2.nupkg.sha512",
@@ -42,6 +43,7 @@
     "C:\\Users\\Son\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.5\\microsoft.entityframeworkcore.5.0.5.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.5\\microsoft.entityframeworkcore.abstractions.5.0.5.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.5\\microsoft.entityframeworkcore.analyzers.5.0.5.nupkg.sha512",
+    "C:\\Users\\Son\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.5\\microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.5\\microsoft.entityframeworkcore.relational.5.0.5.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\5.0.5\\microsoft.entityframeworkcore.sqlserver.5.0.5.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",

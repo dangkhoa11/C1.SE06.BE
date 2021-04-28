@@ -34,3 +34,6 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.pdb
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.genruntimeconfig.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\System.Data.Entity.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\System.Data.Entity.xml
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.csproj.CopyComplete
