@@ -7,3 +7,12 @@ D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.Asse
 D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.csproj.CoreCompileInputs.cache
 D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.dll
 D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.pdb
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\login.Utilities.deps.json
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\login.Utilities.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\login.Utilities.pdb
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.csprojAssemblyReference.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.AssemblyInfoInputs.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.AssemblyInfo.cs
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.pdb

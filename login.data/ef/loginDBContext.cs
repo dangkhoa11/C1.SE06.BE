@@ -1,6 +1,4 @@
-﻿
-
-using login.data.Configuration;
+﻿using login.data.Configuration;
 using login.data.entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
@@ -10,9 +8,9 @@ using System.Text;
 
 namespace login.data.ef
 {
-    public class loginDBContext : IdentityDbContext<user>
+    public class loginDBContext : IdentityDbContext<AppUser, AppRole, long>
     {
-        public loginDBContext( DbContextOptions options) : base(options)
+        public loginDBContext( DbContextOptions<loginDBContext> options) : base(options)
         {
              
         }

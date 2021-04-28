@@ -1,4 +1,5 @@
 ﻿using DotNetOpenAuth.InfoCard;
+using login.data.entities;
 using login.ViewModels.System.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -16,9 +17,9 @@ namespace login.app.System.User
     {
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
-        private readonly RoleManager<AppUser> _roleManager;
+        private readonly RoleManager<AppRole> _roleManager;
         private readonly IConfiguration _config;
-        public UserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<AppUser> roleManager, IConfiguration config)
+        public UserService(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, RoleManager<AppRole> roleManager, IConfiguration config)
         {
             
             _userManager = userManager;
@@ -26,33 +27,33 @@ namespace login.app.System.User
             _roleManager = roleManager;
             _config = config;
         }
-        public async Task<string> Authencate(loginRequest request)
-        {
-            var user =await _userManager.FindByNameAsync(request.userName);
-            if (user == null) return null;
-            var result = await _signInManager.PasswordSignInAsync(request.userName, request.password, request.rememberMe, true);
-            if (!result.Succeeded)
-            {
-                return null;
-            }
-            var roles =await _userManager.GetRolesAsync(user); 
-            var claims = new[]
-            {
-                new Claim(ClaimTypes.Email ,user.UserName),
-                new Claim(ClaimTypes.GivenName,user.Firstname),
-                new Claim(ClaimTypes.Role,string.Join(";",roles))
-            };
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"]));
-            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(_config["Token:Issuer"],
-                _config["Token:Issuer"],
-                claims,
-                expires: DateTime.Now.AddHours(3),
-                signingCredentials: creds);
-            return new JwtSecurityTokenHandler().WriteToken(token);
+        //public async Task<string> Authencate(loginRequest request)
+        //{
+        //    var user =await _userManager.FindByNameAsync(request.userName);
+        //    if (user == null) return null;
+        //    var result = await _signInManager.PasswordSignInAsync(request.userName, request.password, request.rememberMe, true);
+        //    if (!result.Succeeded)
+        //    {
+        //        return null;
+        //    }
+        //    var roles =await _userManager.GetRolesAsync(user); 
+        //    var claims = new[]
+        //    {
+        //        new Claim(ClaimTypes.Email ,user.UserName),
+        //        new Claim(ClaimTypes.GivenName,user.Firstname),
+        //        new Claim(ClaimTypes.Role,string.Join(";",roles))
+        //    };
+        //    var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"]));
+        //    var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+        //    var token = new JwtSecurityToken(_config["Token:Issuer"],
+        //        _config["Token:Issuer"],
+        //        claims,
+        //        expires: DateTime.Now.AddHours(3),
+        //        signingCredentials: creds);
+        //    return new JwtSecurityTokenHandler().WriteToken(token);
                 
             
-        }
+        //}
 
         public async Task<bool> Register(registerRequest request)
         {

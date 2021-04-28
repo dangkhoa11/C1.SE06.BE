@@ -7785,19 +7785,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KHOA\\.nuget\\packages\\": {}
+    "C:\\Users\\Son\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.API\\login.API.csproj",
+      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\login.API.csproj",
       "projectName": "login.API",
-      "projectPath": "D:\\login\\C1.SE06.BE\\login.API\\login.API.csproj",
-      "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-      "outputPath": "D:\\login\\C1.SE06.BE\\login.API\\obj\\",
+      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\login.API.csproj",
+      "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7811,17 +7811,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj": {
-              "projectPath": "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj"
             },
-            "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
-              "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj"
             },
-            "D:\\login\\C1.SE06.BE\\login.Utilities\\login.Utilities.csproj": {
-              "projectPath": "D:\\login\\C1.SE06.BE\\login.Utilities\\login.Utilities.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\login.Utilities.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\login.Utilities.csproj"
             },
-            "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
-              "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
             }
           }
         }

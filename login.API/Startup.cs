@@ -16,6 +16,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using login.Utilities.constant;
 using Microsoft.OpenApi.Models;
+using login.data.entities;
+
 
 namespace login.API
 {
@@ -33,21 +35,19 @@ namespace login.API
         {
             services.AddDbContext<loginDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
-            services.AddIdentity<AppUser, AppRole>()
+            services.AddIdentity<login.data.entities.AppUser, login.data.entities.AppRole>()
                .AddEntityFrameworkStores<loginDBContext>()
                .AddDefaultTokenProviders();
+            services.AddScoped<RoleManager<login.data.entities.AppRole>>();
+            //services.AddSwaggerGen(c =>
+            //{
+            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });
 
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });
-
-            });
-
-
+            //});
 
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
-            services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();
+            services.AddTransient<RoleManager<data.entities.AppRole>, RoleManager<data.entities.AppRole>>();
             services.AddTransient<IUserService1, UserService>();
 
             services.AddControllersWithViews();

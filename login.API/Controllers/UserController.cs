@@ -19,23 +19,23 @@ namespace login.API.Controllers
         {
             _userService = userService;
         }
-        [HttpPost("authenticate")]
-        [AllowAnonymous]
-        public async Task<IActionResult> Authenticate([FromBody]loginRequest request)
-        {
-            if (!ModelState.IsValid)
-                return BadRequest(ModelState);
-            var resultToken =await _userService.Authencate(request);
-            if(string.IsNullOrEmpty(resultToken))
-            {
-                return BadRequest("user or password is incorrect");
-            }
-            return Ok(new { token = resultToken });
+        //[HttpPost("authenticate")]
+        //[AllowAnonymous]
+        //public async Task<IActionResult> Authenticate([FromForm]loginRequest request)
+        //{
+        //    if (!ModelState.IsValid)
+        //        return BadRequest(ModelState);
+        //    var resultToken =await _userService.Authencate(request);
+        //    if(string.IsNullOrEmpty(resultToken))
+        //    {
+        //        return BadRequest("user or password is incorrect");
+        //    }
+        //    return Ok(new { token = resultToken });
              
-        }
+        //}
         [HttpPost("register")]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromBody] registerRequest request)
+        public async Task<IActionResult> Register([FromForm] registerRequest request)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);

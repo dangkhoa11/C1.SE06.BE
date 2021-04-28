@@ -394,3 +394,9 @@ D:\login\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 D:\login\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 D:\login\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\login\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\login.Utilities.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\login.Utilities.pdb

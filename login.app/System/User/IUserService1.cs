@@ -8,7 +8,7 @@ namespace login.app.System.User
 {
     public interface IUserService1
     {
-        Task<string > Authencate(loginRequest request);
+        //Task<string > Authencate(loginRequest request);
         Task<bool> Register(registerRequest request); 
     }
 }
