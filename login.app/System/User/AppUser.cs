@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Identity;
+using System;
 using System.Security.Claims;
 
 namespace login.app.System.User
 {
-    public class AppUser
+    public class AppUser: IdentityUser<long>
     {
         public int UserID { get; set; }
         public string UserName { get; set; }

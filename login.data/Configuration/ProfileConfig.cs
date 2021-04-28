@@ -5,7 +5,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using login.data.entities;
 using System.Linq;
-using System.Data.Entity;
 
 namespace login.data.Configuration
 {

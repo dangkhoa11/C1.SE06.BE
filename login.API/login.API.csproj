@@ -7,11 +7,13 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.5" />
     <PackageReference Include="Microsoft.Azure.ActiveDirectory.GraphClient" Version="2.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.3" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\login.app\login.app.csproj" />
     <ProjectReference Include="..\login.data\login.data.csproj" />
+    <ProjectReference Include="..\login.Utilities\login.Utilities.csproj" />
     <ProjectReference Include="..\login.ViewModels\login.ViewModels.csproj" />
   </ItemGroup>
 

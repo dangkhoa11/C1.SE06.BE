@@ -1,0 +1,9 @@
+D:\login\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\login.Utilities.deps.json
+D:\login\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\login.Utilities.dll
+D:\login\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\login.Utilities.pdb
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.csprojAssemblyReference.cache
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.AssemblyInfoInputs.cache
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.AssemblyInfo.cs
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.csproj.CoreCompileInputs.cache
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.dll
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\login.Utilities.pdb

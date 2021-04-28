@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "login.ViewModels", "login.V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "login.API", "login.API\login.API.csproj", "{CCCCC4E2-0185-482C-AAFD-D5E17D45908B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "login.Utilities", "login.Utilities\login.Utilities.csproj", "{56D54912-9111-4179-B324-572DE453A5EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{CCCCC4E2-0185-482C-AAFD-D5E17D45908B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCCCC4E2-0185-482C-AAFD-D5E17D45908B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCCCC4E2-0185-482C-AAFD-D5E17D45908B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D54912-9111-4179-B324-572DE453A5EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D54912-9111-4179-B324-572DE453A5EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D54912-9111-4179-B324-572DE453A5EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D54912-9111-4179-B324-572DE453A5EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,7 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using login.Utilities.constant;
+using Microsoft.OpenApi.Models;
 
 namespace login.API
 {
@@ -30,12 +31,20 @@ namespace login.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
-            services.AddIdentity<AppUser, AppRole>()
-                .AddEntityFrameworkStores<loginDBContext>()
-                .AddDefaultTokenProviders();
             services.AddDbContext<loginDBContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("loginDb")));
+                options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
+            services.AddIdentity<AppUser, AppRole>()
+               .AddEntityFrameworkStores<loginDBContext>()
+               .AddDefaultTokenProviders();
+
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });
+
+            });
+
+
+
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();
@@ -63,6 +72,11 @@ namespace login.API
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "swagger login solution v1");
+            });
 
             app.UseEndpoints(endpoints =>
             {

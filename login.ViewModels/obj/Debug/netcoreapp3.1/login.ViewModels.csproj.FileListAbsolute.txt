@@ -16,3 +16,12 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.ViewModels\obj\Debug\netcore
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.csproj.CoreCompileInputs.cache
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.pdb
+D:\login\C1.SE06.BE\login.ViewModels\bin\Debug\netcoreapp3.1\login.ViewModels.deps.json
+D:\login\C1.SE06.BE\login.ViewModels\bin\Debug\netcoreapp3.1\login.ViewModels.dll
+D:\login\C1.SE06.BE\login.ViewModels\bin\Debug\netcoreapp3.1\login.ViewModels.pdb
+D:\login\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.csprojAssemblyReference.cache
+D:\login\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.AssemblyInfoInputs.cache
+D:\login\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.AssemblyInfo.cs
+D:\login\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.csproj.CoreCompileInputs.cache
+D:\login\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.dll
+D:\login\C1.SE06.BE\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.pdb
