@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.ActiveDirectory.GraphClient" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\login.app\login.app.csproj" />
+    <ProjectReference Include="..\login.data\login.data.csproj" />
+    <ProjectReference Include="..\login.ViewModels\login.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

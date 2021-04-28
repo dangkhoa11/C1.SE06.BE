@@ -1,0 +1,9 @@
+D:\login\login.ViewModels\bin\Debug\netcoreapp3.1\login.ViewModels.deps.json
+D:\login\login.ViewModels\bin\Debug\netcoreapp3.1\login.ViewModels.dll
+D:\login\login.ViewModels\bin\Debug\netcoreapp3.1\login.ViewModels.pdb
+D:\login\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.csprojAssemblyReference.cache
+D:\login\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.AssemblyInfoInputs.cache
+D:\login\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.AssemblyInfo.cs
+D:\login\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.csproj.CoreCompileInputs.cache
+D:\login\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.dll
+D:\login\login.ViewModels\obj\Debug\netcoreapp3.1\login.ViewModels.pdb
