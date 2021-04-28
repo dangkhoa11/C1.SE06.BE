@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\login\\login.data\\login.data.csproj": {}
+    "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {}
   },
   "projects": {
-    "D:\\login\\login.data\\login.data.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.data\\login.data.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
         "projectName": "login.data",
-        "projectPath": "D:\\login\\login.data\\login.data.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.data\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Google.Ads.Common": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "IdentityServer4.EntityFramework": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -55,6 +63,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

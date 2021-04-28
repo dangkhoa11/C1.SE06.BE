@@ -6,13 +6,15 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Azure.ActiveDirectory.GraphClient;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Configuration;
+
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace login.API
 {
@@ -29,11 +31,16 @@ namespace login.API
         public void ConfigureServices(IServiceCollection services)
         {
             
+            services.AddIdentity<AppUser, AppRole>()
+                .AddEntityFrameworkStores<loginDBContext>()
+                
+            
+                
             services.AddDbContext<loginDBContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("loginDBcontext")));
+                options.UseSqlServer(Configuration.GetConnectionString("loginDb")));
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
-            services.AddTransient<RoleManager<AppUser>, RoleManager<AppUser>>();
+            services.AddTransient<RoleManager<AppRole>, RoleManager<AppRole>>();
             services.AddTransient<IUserService1, UserService>();
 
             services.AddControllersWithViews();

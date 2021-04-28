@@ -1,4 +1,7 @@
-﻿using login.data.entities;
+﻿
+
+using login.data.Configuration;
+using login.data.entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -10,8 +13,16 @@ namespace login.data.ef
     {
         public loginDBContext( DbContextOptions options) : base(options)
         {
+             
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
             
+            modelBuilder.ApplyConfiguration(new userConfiguration());
+
+            base.OnModelCreating(modelBuilder);
         }
         public DbSet<user> users { get; set; }
+         
     }
 }

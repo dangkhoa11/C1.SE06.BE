@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\login\\login.ViewModels\\login.ViewModels.csproj": {}
+    "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {}
   },
   "projects": {
-    "D:\\login\\login.ViewModels\\login.ViewModels.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.ViewModels\\login.ViewModels.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
         "projectName": "login.ViewModels",
-        "projectPath": "D:\\login\\login.ViewModels\\login.ViewModels.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.ViewModels\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",

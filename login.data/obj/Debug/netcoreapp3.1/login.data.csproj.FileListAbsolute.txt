@@ -10,3 +10,15 @@ D:\login\login.data\obj\Debug\netcoreapp3.1\login.data.csproj.CoreCompileInputs.
 D:\login\login.data\obj\Debug\netcoreapp3.1\login.data.dll
 D:\login\login.data\obj\Debug\netcoreapp3.1\login.data.pdb
 D:\login\login.data\obj\Debug\netcoreapp3.1\login.data.genruntimeconfig.cache
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.deps.json
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.runtimeconfig.json
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.runtimeconfig.dev.json
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.dll
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.pdb
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.csprojAssemblyReference.cache
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.AssemblyInfoInputs.cache
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.AssemblyInfo.cs
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.csproj.CoreCompileInputs.cache
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.dll
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.pdb
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.genruntimeconfig.cache

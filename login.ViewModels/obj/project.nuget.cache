@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L+tEcoBoHRubelrgOy52pNam9e6YsJnzTzLyzCr+ZdlPnmZxdW0G+IFd/lx9Npmr2j/xCPEAO27SAWkH9CF/+w==",
+  "dgSpecHash": "Km8OfwUURuUXbfLEf7Qio0kmOh5wyvC+516ABV6E8qsah/N+LYxJibJUAOeScD9GMmUFCBPdG2rb8OyvU7H4qw==",
   "success": true,
-  "projectFilePath": "D:\\login\\login.ViewModels\\login.ViewModels.csproj",
+  "projectFilePath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\login\\login.API\\login.API.csproj": {}
+    "D:\\login\\C1.SE06.BE\\login.API\\login.API.csproj": {}
   },
   "projects": {
-    "D:\\login\\login.API\\login.API.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.API\\login.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.API\\login.API.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.API\\login.API.csproj",
         "projectName": "login.API",
-        "projectPath": "D:\\login\\login.API\\login.API.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.API\\login.API.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.API\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\login\\login.app\\login.app.csproj": {
-                "projectPath": "D:\\login\\login.app\\login.app.csproj"
+              "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj": {
+                "projectPath": "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj"
               },
-              "D:\\login\\login.data\\login.data.csproj": {
-                "projectPath": "D:\\login\\login.data\\login.data.csproj"
+              "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
+                "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj"
               },
-              "D:\\login\\login.ViewModels\\login.ViewModels.csproj": {
-                "projectPath": "D:\\login\\login.ViewModels\\login.ViewModels.csproj"
+              "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
+                "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\login\\login.app\\login.app.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.app\\login.app.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj",
         "projectName": "login.app",
-        "projectPath": "D:\\login\\login.app\\login.app.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.app\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -101,14 +101,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\login\\login.data\\login.data.csproj": {
-                "projectPath": "D:\\login\\login.data\\login.data.csproj"
+              "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
+                "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj"
               },
-              "D:\\login\\login.ViewModels\\login.ViewModels.csproj": {
-                "projectPath": "D:\\login\\login.ViewModels\\login.ViewModels.csproj"
+              "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
+                "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
               },
-              "D:\\login\\login.WebApp\\login.WebApp.csproj": {
-                "projectPath": "D:\\login\\login.WebApp\\login.WebApp.csproj"
+              "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
+                "projectPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj"
               }
             }
           }
@@ -155,14 +155,14 @@
         }
       }
     },
-    "D:\\login\\login.data\\login.data.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.data\\login.data.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
         "projectName": "login.data",
-        "projectPath": "D:\\login\\login.data\\login.data.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.data\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -191,6 +191,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Google.Ads.Common": {
+              "target": "Package",
+              "version": "[9.5.1, )"
+            },
+            "IdentityServer4.EntityFramework": {
+              "target": "Package",
+              "version": "[4.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -206,6 +214,14 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
@@ -227,14 +243,14 @@
         }
       }
     },
-    "D:\\login\\login.ViewModels\\login.ViewModels.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.ViewModels\\login.ViewModels.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
         "projectName": "login.ViewModels",
-        "projectPath": "D:\\login\\login.ViewModels\\login.ViewModels.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.ViewModels\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -281,14 +297,14 @@
         }
       }
     },
-    "D:\\login\\login.WebApp\\login.WebApp.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.WebApp\\login.WebApp.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
         "projectName": "login.WebApp",
-        "projectPath": "D:\\login\\login.WebApp\\login.WebApp.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.WebApp\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\login\\login.WebApp\\login.WebApp.csproj": {}
+    "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\login\\login.WebApp\\login.WebApp.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\login.WebApp\\login.WebApp.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
         "projectName": "login.WebApp",
-        "projectPath": "D:\\login\\login.WebApp\\login.WebApp.csproj",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
         "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\login.WebApp\\obj\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",

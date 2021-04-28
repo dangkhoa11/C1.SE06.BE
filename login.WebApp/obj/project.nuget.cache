@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yp0FVDs/1LcANn8N42XimE/p/FHUZCUXflNSZSAGSsIIK75a5cF3rEnPEZqwJ7Q8NB7dGPYIoK7dH20AhQjxwQ==",
+  "dgSpecHash": "vF7sU7I34Ioy7zWrA96w0Ql0EMp1X3GNZXkIGOBJuYmr8/MTIiVHA+9uG5blLakIjUYgQK9Tp7Ku0sFegAybJA==",
   "success": true,
-  "projectFilePath": "D:\\login\\login.WebApp\\login.WebApp.csproj",
+  "projectFilePath": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
