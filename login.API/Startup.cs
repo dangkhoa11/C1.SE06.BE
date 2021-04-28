@@ -8,7 +8,7 @@ using Microsoft.Azure.ActiveDirectory.GraphClient;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Configuration;
-
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
@@ -30,12 +30,10 @@ namespace login.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
             services.AddIdentity<AppUser, AppRole>()
                 .AddEntityFrameworkStores<loginDBContext>()
-                
-            
-                
+                .AddDefaultTokenProviders();
             services.AddDbContext<loginDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("loginDb")));
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();

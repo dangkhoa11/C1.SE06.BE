@@ -22,3 +22,15 @@ D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.csproj.CoreCom
 D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.dll
 D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.pdb
 D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.genruntimeconfig.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.deps.json
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.runtimeconfig.json
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.runtimeconfig.dev.json
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\login.data.pdb
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.csprojAssemblyReference.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.AssemblyInfoInputs.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.AssemblyInfo.cs
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.csproj.CoreCompileInputs.cache
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.pdb
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\login.data.genruntimeconfig.cache

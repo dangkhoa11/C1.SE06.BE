@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj": {}
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj": {}
   },
   "projects": {
-    "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj",
         "projectName": "login.app",
-        "projectPath": "D:\\login\\C1.SE06.BE\\login.app\\login.app.csproj",
-        "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\C1.SE06.BE\\login.app\\obj\\",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj",
+        "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,14 +28,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
-                "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj"
+              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
+                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj"
               },
-              "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
-                "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
+              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
               },
-              "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
-                "projectPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj"
+              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
+                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj"
               }
             }
           }
@@ -57,6 +57,10 @@
             "Microsoft.AspNetCore.Identity": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
             },
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
@@ -82,17 +86,17 @@
         }
       }
     },
-    "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj",
         "projectName": "login.data",
-        "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
-        "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\C1.SE06.BE\\login.data\\obj\\",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj",
+        "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -125,6 +129,10 @@
             "IdentityServer4.EntityFramework": {
               "target": "Package",
               "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -170,17 +178,17 @@
         }
       }
     },
-    "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
         "projectName": "login.ViewModels",
-        "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\obj\\",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -205,6 +213,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -224,17 +238,17 @@
         }
       }
     },
-    "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
         "projectName": "login.WebApp",
-        "projectPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
-        "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\obj\\",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
+        "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -259,6 +273,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

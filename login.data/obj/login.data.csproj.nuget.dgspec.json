@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {}
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {}
   },
   "projects": {
-    "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj",
         "projectName": "login.data",
-        "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\login.data.csproj",
-        "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
-        "outputPath": "D:\\login\\C1.SE06.BE\\login.data\\obj\\",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj",
+        "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -47,6 +47,10 @@
             "IdentityServer4.EntityFramework": {
               "target": "Package",
               "version": "[4.1.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

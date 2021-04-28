@@ -11,8 +11,8 @@ namespace login.data.Configuration
     {
         public void Configure(EntityTypeBuilder<user> builder)
         {
-            builder.ToTable("Users");
-            builder.HasKey(x => x.ID);
+            builder.ToTable("USER");
+            builder.HasKey(x => x.UserID);
             builder.Property(x => x.userName).IsRequired();
             builder.Property(x => x.password).IsRequired(); 
         }

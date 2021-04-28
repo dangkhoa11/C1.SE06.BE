@@ -5,14 +5,8 @@ namespace login.app.System.User
 {
     public class AppUser
     {
-        
-
-        public string firstName { get; set; }
-        public string lastName { get; set; }
-        public DateTime dob { get; set; }
-        public string email { get; set; }
-        public string userName { get; set; }
-        public string password { get; set; }
-
+        public int UserID { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }
     }
 }
