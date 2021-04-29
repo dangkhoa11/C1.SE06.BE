@@ -18,7 +18,7 @@ namespace login.data.ef
         {
             
             modelBuilder.ApplyConfiguration(new userConfiguration());
-            modelBuilder.ApplyConfiguration(new ProfileConfig());
+            //modelBuilder.ApplyConfiguration(new ProfileConfig());
 
             base.OnModelCreating(modelBuilder);
         }

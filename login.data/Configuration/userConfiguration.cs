@@ -14,7 +14,11 @@ namespace login.data.Configuration
             builder.ToTable("USER");
             builder.HasKey(x => x.UserID);
             builder.Property(x => x.userName).IsRequired();
-            builder.Property(x => x.password).IsRequired(); 
+            builder.Property(x => x.password).IsRequired();
+            builder.Property(x => x.firstname);
+            builder.Property(x => x.lastname);
+            builder.Property(x => x.phoneNumber);
+            builder.Property(x => x.email);
         }
     }
 }

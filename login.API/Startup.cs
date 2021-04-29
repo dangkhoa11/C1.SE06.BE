@@ -23,6 +23,7 @@ namespace login.API
 {
     public class Startup
     {
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -39,11 +40,11 @@ namespace login.API
                .AddEntityFrameworkStores<loginDBContext>()
                .AddDefaultTokenProviders();
             services.AddScoped<RoleManager<login.data.entities.AppRole>>();
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });
 
-            //});
+            });
 
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
@@ -51,6 +52,7 @@ namespace login.API
             services.AddTransient<IUserService1, UserService>();
 
             services.AddControllersWithViews();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
