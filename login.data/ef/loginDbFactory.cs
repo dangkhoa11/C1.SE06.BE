@@ -14,10 +14,10 @@ namespace login.data.ef
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsetting.json")
+            .AddJsonFile("appsettings.json")
             .Build();
 
-            var connectionString = configuration.GetConnectionString("loginDb");
+            var connectionString = configuration.GetConnectionString("RETPDb");
             var optionsBuilder = new DbContextOptionsBuilder<loginDBContext>();
             optionsBuilder.UseSqlServer(connectionString);
             return new loginDBContext(optionsBuilder.Options);

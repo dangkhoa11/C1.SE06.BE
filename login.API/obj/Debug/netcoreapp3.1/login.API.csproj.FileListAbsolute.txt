@@ -400,3 +400,5 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\login.Utilities.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\login.Utilities.pdb
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "login.ViewModels": {
+      "commandName": "Project",
+      "workingDirectory": "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\AppData\\RETPDatabase.mdf;Integrated Security=True"
+    }
+  }
+}
