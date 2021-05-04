@@ -1,5 +1,5 @@
-using login.app.System.User;
-using login.data.ef;
+using RETP.app.System.User;
+using RETP.data.ef;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -14,12 +14,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using login.Utilities.constant;
+using RETP.Utilities.constant;
 using Microsoft.OpenApi.Models;
-using login.data.entities;
+using RETP.data.entities;
 
 
-namespace login.API
+namespace RETP.API
 {
     public class Startup
     {
@@ -34,12 +34,12 @@ namespace login.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<loginDBContext>(options =>
+            services.AddDbContext<RETPDBContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString(SystemConstants.MainConnectionString)));
-            services.AddIdentity<login.data.entities.AppUser, login.data.entities.AppRole>()
-               .AddEntityFrameworkStores<loginDBContext>()
+            services.AddIdentity<RETP.data.entities.AppUser, RETP.data.entities.AppRole>()
+               .AddEntityFrameworkStores<RETPDBContext>()
                .AddDefaultTokenProviders();
-            services.AddScoped<RoleManager<login.data.entities.AppRole>>();
+            services.AddScoped<RoleManager<RETP.data.entities.AppRole>>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });

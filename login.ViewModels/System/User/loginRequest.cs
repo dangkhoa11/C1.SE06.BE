@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace login.ViewModels.System.User
+namespace RETP.ViewModels.System.User
 {
     public class loginRequest
     {

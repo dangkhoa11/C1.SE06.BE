@@ -28,14 +28,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
-                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj"
+              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj": {
+                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj"
               },
-              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
-                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
+              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
+                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj"
               },
-              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
-                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj"
+              "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj": {
+                "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj"
               }
             }
           }
@@ -92,12 +92,12 @@
         }
       }
     },
-    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj",
-        "projectName": "login.data",
-        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj",
+        "projectName": "RETP.data",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj",
         "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\obj\\",
         "projectStyle": "PackageReference",
@@ -184,12 +184,12 @@
         }
       }
     },
-    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
-        "projectName": "login.ViewModels",
-        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj",
+        "projectName": "RETP.ViewModels",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
@@ -244,12 +244,12 @@
         }
       }
     },
-    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj": {
+    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
-        "projectName": "login.WebApp",
-        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
+        "projectName": "RETP.WebApp",
+        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
         "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\obj\\",
         "projectStyle": "PackageReference",

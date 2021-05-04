@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using login.data.entities;
+using RETP.data.entities;
 using System.Linq;
 
-namespace login.data.Configuration
+namespace RETP.data.Configuration
 {
     public class ProfileConfig : IEntityTypeConfiguration<profile>
     {

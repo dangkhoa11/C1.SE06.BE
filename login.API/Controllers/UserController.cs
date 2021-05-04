@@ -1,5 +1,5 @@
-﻿using login.app.System.User;
-using login.ViewModels.System.User;
+﻿using RETP.app.System.User;
+using RETP.ViewModels.System.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -8,7 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace login.API.Controllers
+namespace RETP.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

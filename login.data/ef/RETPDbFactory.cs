@@ -6,11 +6,11 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace login.data.ef
+namespace RETP.data.ef
 {
-    public class loginDbFactory : IDesignTimeDbContextFactory<loginDBContext>
+    public class RETPDbFactory : IDesignTimeDbContextFactory<RETPDBContext>
     {
-        public loginDBContext CreateDbContext(string[] args)
+        public RETPDBContext CreateDbContext(string[] args)
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
@@ -18,9 +18,9 @@ namespace login.data.ef
             .Build();
 
             var connectionString = configuration.GetConnectionString("RETPDb");
-            var optionsBuilder = new DbContextOptionsBuilder<loginDBContext>();
+            var optionsBuilder = new DbContextOptionsBuilder<RETPDBContext>();
             optionsBuilder.UseSqlServer(connectionString);
-            return new loginDBContext(optionsBuilder.Options);
+            return new RETPDBContext(optionsBuilder.Options);
         }
     }
 }

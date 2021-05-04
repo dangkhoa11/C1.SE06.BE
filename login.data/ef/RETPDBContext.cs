@@ -1,16 +1,16 @@
-﻿using login.data.Configuration;
-using login.data.entities;
+﻿using RETP.data.Configuration;
+using RETP.data.entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace login.data.ef
+namespace RETP.data.ef
 {
-    public class loginDBContext : IdentityDbContext<AppUser, AppRole, long>
+    public class RETPDBContext : IdentityDbContext<AppUser, AppRole, long>
     {
-        public loginDBContext( DbContextOptions<loginDBContext> options) : base(options)
+        public RETPDBContext( DbContextOptions<RETPDBContext> options) : base(options)
         {
              
         }

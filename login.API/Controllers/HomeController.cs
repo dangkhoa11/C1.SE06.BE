@@ -1,4 +1,4 @@
-﻿using login.API.Models;
+﻿using RETP.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -7,7 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace login.API.Controllers
+namespace RETP.API.Controllers
 {
     public class HomeController : Controller
     {

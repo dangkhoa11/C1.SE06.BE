@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NjqOZsXxemo15foBwGIy1jpqYzNqDZj1KUAwErhQzfghtbcPonqBRu6t7Nweg4FEQtAYEYA+UkkWFeJKnOveOw==",
+  "dgSpecHash": "oHhiYm91aXo6Nafmm80tZyZZtDshlZ3OXCebLFN3XjnyGlgL6Pg0Jv0M8sSlmV62UkBry/lustCNKSA3zcbV+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\login.API.csproj",
+  "projectFilePath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\RETP.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Son\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\Son\\.nuget\\packages\\dotnetopenauth.core\\4.3.4.13329\\dotnetopenauth.core.4.3.4.13329.nupkg.sha512",

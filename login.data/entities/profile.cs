@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace login.data.entities
+namespace RETP.data.entities
 {
     [Table("PROFILE")]
     public class profile

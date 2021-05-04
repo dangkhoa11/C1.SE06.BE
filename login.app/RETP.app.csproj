@@ -16,9 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\login.data\login.data.csproj" />
-    <ProjectReference Include="..\login.ViewModels\login.ViewModels.csproj" />
-    <ProjectReference Include="..\login.WebApp\login.WebApp.csproj" />
+    <ProjectReference Include="..\login.data\RETP.data.csproj" />
+    <ProjectReference Include="..\login.Utilities\RETP.Utilities.csproj" />
+    <ProjectReference Include="..\login.ViewModels\RETP.ViewModels.csproj" />
+    <ProjectReference Include="..\login.WebApp\RETP.WebApp.csproj" />
   </ItemGroup>
 
 </Project>

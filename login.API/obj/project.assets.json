@@ -2357,7 +2357,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "login.app/1.0.0": {
+      "RETP.app/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2365,18 +2365,19 @@
           "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
           "Microsoft.Extensions.Identity.Core": "5.0.5",
-          "login.ViewModels": "1.0.0",
-          "login.WebApp": "1.0.0",
-          "login.data": "1.0.0"
+          "RETP.Utilities": "1.0.0",
+          "RETP.ViewModels": "1.0.0",
+          "RETP.WebApp": "1.0.0",
+          "RETP.data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/login.app.dll": {}
+          "bin/placeholder/RETP.app.dll": {}
         },
         "runtime": {
-          "bin/placeholder/login.app.dll": {}
+          "bin/placeholder/RETP.app.dll": {}
         }
       },
-      "login.data/1.0.0": {
+      "RETP.data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2388,46 +2389,46 @@
           "Microsoft.Extensions.Configuration.Json": "5.0.0"
         },
         "compile": {
-          "bin/placeholder/login.data.dll": {}
+          "bin/placeholder/RETP.data.dll": {}
         },
         "runtime": {
-          "bin/placeholder/login.data.dll": {}
+          "bin/placeholder/RETP.data.dll": {}
         }
       },
-      "login.Utilities/1.0.0": {
+      "RETP.Utilities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
-          "bin/placeholder/login.Utilities.dll": {}
+          "bin/placeholder/RETP.Utilities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/login.Utilities.dll": {}
+          "bin/placeholder/RETP.Utilities.dll": {}
         }
       },
-      "login.ViewModels/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
-        },
-        "compile": {
-          "bin/placeholder/login.ViewModels.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/login.ViewModels.dll": {}
-        }
-      },
-      "login.WebApp/1.0.0": {
+      "RETP.ViewModels/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/login.WebApp.dll": {}
+          "bin/placeholder/RETP.ViewModels.dll": {}
         },
         "runtime": {
-          "bin/placeholder/login.WebApp.dll": {}
+          "bin/placeholder/RETP.ViewModels.dll": {}
+        }
+      },
+      "RETP.WebApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
+        },
+        "compile": {
+          "bin/placeholder/RETP.WebApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RETP.WebApp.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -7804,30 +7805,30 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "login.app/1.0.0": {
+    "RETP.app/1.0.0": {
       "type": "project",
-      "path": "../login.app/login.app.csproj",
-      "msbuildProject": "../login.app/login.app.csproj"
+      "path": "../login.app/RETP.app.csproj",
+      "msbuildProject": "../login.app/RETP.app.csproj"
     },
-    "login.data/1.0.0": {
+    "RETP.data/1.0.0": {
       "type": "project",
-      "path": "../login.data/login.data.csproj",
-      "msbuildProject": "../login.data/login.data.csproj"
+      "path": "../login.data/RETP.data.csproj",
+      "msbuildProject": "../login.data/RETP.data.csproj"
     },
-    "login.Utilities/1.0.0": {
+    "RETP.Utilities/1.0.0": {
       "type": "project",
-      "path": "../login.Utilities/login.Utilities.csproj",
-      "msbuildProject": "../login.Utilities/login.Utilities.csproj"
+      "path": "../login.Utilities/RETP.Utilities.csproj",
+      "msbuildProject": "../login.Utilities/RETP.Utilities.csproj"
     },
-    "login.ViewModels/1.0.0": {
+    "RETP.ViewModels/1.0.0": {
       "type": "project",
-      "path": "../login.ViewModels/login.ViewModels.csproj",
-      "msbuildProject": "../login.ViewModels/login.ViewModels.csproj"
+      "path": "../login.ViewModels/RETP.ViewModels.csproj",
+      "msbuildProject": "../login.ViewModels/RETP.ViewModels.csproj"
     },
-    "login.WebApp/1.0.0": {
+    "RETP.WebApp/1.0.0": {
       "type": "project",
-      "path": "../login.WebApp/login.WebApp.csproj",
-      "msbuildProject": "../login.WebApp/login.WebApp.csproj"
+      "path": "../login.WebApp/RETP.WebApp.csproj",
+      "msbuildProject": "../login.WebApp/RETP.WebApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7835,11 +7836,11 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.5",
       "Microsoft.Azure.ActiveDirectory.GraphClient >= 2.1.1",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.5",
-      "Swashbuckle.AspNetCore >= 6.1.4",
-      "login.Utilities >= 1.0.0",
-      "login.ViewModels >= 1.0.0",
-      "login.app >= 1.0.0",
-      "login.data >= 1.0.0"
+      "RETP.Utilities >= 1.0.0",
+      "RETP.ViewModels >= 1.0.0",
+      "RETP.app >= 1.0.0",
+      "RETP.data >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 6.1.4"
     ]
   },
   "packageFolders": {
@@ -7848,9 +7849,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\login.API.csproj",
-      "projectName": "login.API",
-      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\login.API.csproj",
+      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\RETP.API.csproj",
+      "projectName": "RETP.API",
+      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\RETP.API.csproj",
       "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\obj\\",
       "projectStyle": "PackageReference",
@@ -7869,17 +7870,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\login.app.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\RETP.app.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\RETP.app.csproj"
             },
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\login.data.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj"
             },
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\login.Utilities.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\login.Utilities.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj"
             },
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\login.ViewModels.csproj"
+            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
+              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj"
             }
           }
         }

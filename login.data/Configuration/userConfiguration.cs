@@ -1,11 +1,11 @@
-﻿using login.data.entities;
+﻿using RETP.data.entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace login.data.Configuration
+namespace RETP.data.Configuration
 {
     public class userConfiguration : IEntityTypeConfiguration<user>
     {

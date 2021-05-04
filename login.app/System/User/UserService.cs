@@ -1,6 +1,6 @@
 ﻿using DotNetOpenAuth.InfoCard;
-using login.data.entities;
-using login.ViewModels.System.User;
+using RETP.data.entities;
+using RETP.ViewModels.System.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
@@ -11,7 +11,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace login.app.System.User
+namespace RETP.app.System.User
 {
     public class UserService : IUserService1
     {

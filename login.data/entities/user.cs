@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace login.data.entities
+namespace RETP.data.entities
 {
     [Table("USER")]
     public class user : IdentityUser

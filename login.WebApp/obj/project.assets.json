@@ -748,9 +748,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
-      "projectName": "login.WebApp",
-      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\login.WebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
+      "projectName": "RETP.WebApp",
+      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
       "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\obj\\",
       "projectStyle": "PackageReference",

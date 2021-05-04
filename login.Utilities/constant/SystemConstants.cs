@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace login.Utilities.constant
+namespace RETP.Utilities.constant
 {
     public class SystemConstants
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace login.WebApp.Models
+namespace RETP.WebApp.Models
 {
     public class ErrorViewModel
     {

@@ -15,10 +15,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\login.app\login.app.csproj" />
-    <ProjectReference Include="..\login.data\login.data.csproj" />
-    <ProjectReference Include="..\login.Utilities\login.Utilities.csproj" />
-    <ProjectReference Include="..\login.ViewModels\login.ViewModels.csproj" />
+    <ProjectReference Include="..\login.app\RETP.app.csproj" />
+    <ProjectReference Include="..\login.data\RETP.data.csproj" />
+    <ProjectReference Include="..\login.Utilities\RETP.Utilities.csproj" />
+    <ProjectReference Include="..\login.ViewModels\RETP.ViewModels.csproj" />
   </ItemGroup>
 
   <ItemGroup>
