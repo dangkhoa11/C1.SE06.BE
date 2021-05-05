@@ -14,7 +14,7 @@ namespace RETP.data.ef
         {
             IConfigurationRoot configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json")
+            .AddJsonFile("C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\appsettings.json")
             .Build();
 
             var connectionString = configuration.GetConnectionString("RETPDb");

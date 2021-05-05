@@ -14,6 +14,6 @@ namespace RETP.data.entities
         public string Lastname { get; set; }
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
-        public user user { get; set; }
+        public AppUser user { get; set; }
     }
 }

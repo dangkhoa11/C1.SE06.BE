@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace RETP.data.entities
 {
-    public class AppRole: IdentityRole<long>
+    public class AppRole: IdentityRole<Guid>
     {
         public AppRole() : base()
         {
@@ -17,5 +17,6 @@ namespace RETP.data.entities
         {
             Name = roleName;
         }
+        public string Description { get; set; }
     }
 }

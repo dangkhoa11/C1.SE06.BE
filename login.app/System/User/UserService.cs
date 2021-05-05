@@ -43,16 +43,14 @@ namespace RETP.app.System.User
                 new Claim(ClaimTypes.GivenName,user.Firstname),
                 new Claim(ClaimTypes.Role,string.Join(";",roles))
             };
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Token:Key"]));
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Tokens:Key"]));
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
-            var token = new JwtSecurityToken(_config["Token:Issuer"],
-                _config["Token:Issuer"],
+            var token = new JwtSecurityToken(_config["Tokens:Issuer"],
+                _config["Tokens:Issuer"],
                 claims,
                 expires: DateTime.Now.AddHours(3),
                 signingCredentials: creds);
             return new JwtSecurityTokenHandler().WriteToken(token);
-
-
         }
 
         public async Task<bool> Register(registerRequest request)
@@ -60,7 +58,7 @@ namespace RETP.app.System.User
             var user = new AppUser()
             {
                 UserName = request.userName,
-                Password = request.password,
+                //Password = request.password,
                 Firstname = request.firstName,
                 Lastname = request.lastName,
                 PhoneNumber = request.phoneNumber,
