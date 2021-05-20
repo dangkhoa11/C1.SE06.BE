@@ -8,7 +8,7 @@ namespace RETP.ViewModels.Product
     public class ProductCreateRequest
     {
         public int re_id { set; get; }
-        public string tilte { set; get; }
+        public string title { set; get; }
         public string description { set; get; }
        // public Boolean status { set; get; }
         //public string imagePath { set; get; }

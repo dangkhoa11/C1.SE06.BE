@@ -22,7 +22,7 @@ namespace RETP.app.Product
             var product = new Products()
             {
                 RE_ID = request.re_id,
-                Tilte = request.tilte,
+                Title = request.title,
                 Description = request.description,
                 Address  =request .address,
                // PostedDate = DateTime.Now,

@@ -9,7 +9,7 @@ namespace RETP.data.entities
     public class Products
     {
         public int RE_ID { set; get; }
-        public string Tilte { set; get; }
+        public string Title { set; get; }
         public string Description { set; get; }
         public Boolean Status { set; get; }
         public string ImagePath { set; get; }

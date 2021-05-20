@@ -11,9 +11,9 @@ namespace RETP.data.Configuration
     {
         public void Configure(EntityTypeBuilder<Products> builder)
         {
-            builder.ToTable("PRODUCTS");
+            builder.ToTable("RE");
             builder.HasKey(x => x.RE_ID);
-            builder.Property(x => x.Tilte).IsRequired();
+            builder.Property(x => x.Title).IsRequired();
             builder.Property(x => x.Description).IsRequired();
             builder.Property(x => x.Status).IsRequired();
             builder.Property(x => x.ImagePath).IsRequired();
