@@ -13,3 +13,15 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.pdb
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.genruntimeconfig.cache
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\RETP.data.deps.json
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\RETP.data.runtimeconfig.json
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\RETP.data.runtimeconfig.dev.json
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\RETP.data.dll
+D:\login\C1.SE06.BE\login.data\bin\Debug\netcoreapp3.1\RETP.data.pdb
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.csprojAssemblyReference.cache
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.AssemblyInfoInputs.cache
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.AssemblyInfo.cs
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.csproj.CoreCompileInputs.cache
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.dll
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.pdb
+D:\login\C1.SE06.BE\login.data\obj\Debug\netcoreapp3.1\RETP.data.genruntimeconfig.cache

@@ -1,5 +1,5 @@
 ﻿using DotNetOpenAuth.InfoCard;
-using RETP.data.entities;
+
 using RETP.ViewModels.System.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
@@ -10,6 +10,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
+using RETP.data.entities;
 
 namespace RETP.app.System.User
 {

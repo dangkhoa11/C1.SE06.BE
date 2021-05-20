@@ -17,7 +17,7 @@ using System.Threading.Tasks;
 using RETP.Utilities.constant;
 using Microsoft.OpenApi.Models;
 using RETP.data.entities;
-
+using RETP.app.Product;
 
 namespace RETP.API
 {
@@ -45,7 +45,7 @@ namespace RETP.API
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "swagger login solutions", Version = "v1" });
 
             });
-
+            services.AddTransient<IProductService  , ProductService>();
             services.AddTransient<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddTransient<SignInManager<AppUser>, SignInManager<AppUser>>();
             services.AddTransient<RoleManager<data.entities.AppRole>, RoleManager<data.entities.AppRole>>();

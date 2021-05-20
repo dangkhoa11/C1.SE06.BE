@@ -7,3 +7,12 @@ C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcorea
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.csproj.CoreCompileInputs.cache
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.dll
 C:\Users\Son\OneDrive\Desktop\Cap1\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.pdb
+D:\login\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\RETP.Utilities.deps.json
+D:\login\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\RETP.Utilities.dll
+D:\login\C1.SE06.BE\login.Utilities\bin\Debug\netcoreapp3.1\RETP.Utilities.pdb
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.csprojAssemblyReference.cache
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.AssemblyInfoInputs.cache
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.AssemblyInfo.cs
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.csproj.CoreCompileInputs.cache
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.dll
+D:\login\C1.SE06.BE\login.Utilities\obj\Debug\netcoreapp3.1\RETP.Utilities.pdb

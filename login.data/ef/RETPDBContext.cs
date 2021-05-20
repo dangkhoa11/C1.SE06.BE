@@ -17,7 +17,7 @@ namespace RETP.data.ef
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            
+            modelBuilder.ApplyConfiguration(new ProductConfig());
             modelBuilder.ApplyConfiguration(new AppUserConfig());
             modelBuilder.ApplyConfiguration(new AppRoleConfig());
             modelBuilder.Entity<IdentityUserClaim<Guid>>().ToTable("AppUserClaims");
@@ -28,6 +28,7 @@ namespace RETP.data.ef
             base.OnModelCreating(modelBuilder);
         }
         public DbSet<AppUser> Users { get; set; }
-         
+        public DbSet<Products> Products { get; set; }
+
     }
 }

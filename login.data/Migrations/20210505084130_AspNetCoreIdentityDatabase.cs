@@ -154,6 +154,8 @@ namespace RETP.data.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
+            
+               
 
             migrationBuilder.CreateIndex(
                 name: "IX_AspNetRoleClaims_RoleId",
@@ -217,6 +219,7 @@ namespace RETP.data.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUsers");
+           
         }
     }
 }

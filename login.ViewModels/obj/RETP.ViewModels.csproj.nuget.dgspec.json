@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {}
+    "D:\\login\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
+    "D:\\login\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj",
+        "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj",
         "projectName": "RETP.ViewModels",
-        "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj",
-        "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\obj\\",
+        "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj",
+        "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
+        "outputPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.5, )"
