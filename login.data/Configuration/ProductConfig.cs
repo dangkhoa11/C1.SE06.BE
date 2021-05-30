@@ -11,12 +11,12 @@ namespace RETP.data.Configuration
     {
         public void Configure(EntityTypeBuilder<Products> builder)
         {
-            builder.ToTable("RE");
+            builder.ToTable("RealEstate");
             builder.HasKey(x => x.RE_ID);
             builder.Property(x => x.Title).IsRequired();
             builder.Property(x => x.Description).IsRequired();
             builder.Property(x => x.Status).IsRequired();
-            builder.Property(x => x.ImagePath).IsRequired();
+       
             builder.Property(x => x.Address).IsRequired();
             builder.Property(x => x.Longitude).IsRequired();
             builder.Property(x => x.Latitude).IsRequired();

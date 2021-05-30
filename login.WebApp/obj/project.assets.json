@@ -743,19 +743,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Son\\.nuget\\packages\\": {}
+    "C:\\Users\\KHOA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
+      "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
       "projectName": "RETP.WebApp",
-      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
-      "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.WebApp\\obj\\",
+      "projectPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\RETP.WebApp.csproj",
+      "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
+      "outputPath": "D:\\login\\C1.SE06.BE\\login.WebApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

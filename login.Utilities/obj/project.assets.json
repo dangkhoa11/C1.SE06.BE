@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Son\\.nuget\\packages\\": {}
+    "C:\\Users\\KHOA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj",
+      "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj",
       "projectName": "RETP.Utilities",
-      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj",
-      "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\obj\\",
+      "projectPath": "D:\\login\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj",
+      "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
+      "outputPath": "D:\\login\\C1.SE06.BE\\login.Utilities\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

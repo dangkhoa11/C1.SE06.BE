@@ -25,16 +25,13 @@ namespace RETP.app.Product
                 Title = request.title,
                 Description = request.description,
                 Address  =request .address,
-               // PostedDate = DateTime.Now,
+               
 
             };
             _context.Products.Add(product);
             return await _context.SaveChangesAsync();
         }
-       // private async Task<string> SaveImage(IFormFile file)
-        //{
-         //   var originalFileName = 
-        //}
+       
 
         
     }

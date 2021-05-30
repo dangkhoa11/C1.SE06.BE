@@ -12,7 +12,7 @@ namespace RETP.data.entities
         public string Title { set; get; }
         public string Description { set; get; }
         public Boolean Status { set; get; }
-        public string ImagePath { set; get; }
+        
         public string Address { set; get; }
        public decimal Longitude { set; get; }
         public decimal Latitude { set; get; }

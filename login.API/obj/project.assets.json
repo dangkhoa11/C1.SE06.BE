@@ -7931,19 +7931,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Son\\.nuget\\packages\\": {}
+    "C:\\Users\\KHOA\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\RETP.API.csproj",
+      "projectUniqueName": "D:\\login\\C1.SE06.BE\\login.API\\RETP.API.csproj",
       "projectName": "RETP.API",
-      "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\RETP.API.csproj",
-      "packagesPath": "C:\\Users\\Son\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.API\\obj\\",
+      "projectPath": "D:\\login\\C1.SE06.BE\\login.API\\RETP.API.csproj",
+      "packagesPath": "C:\\Users\\KHOA\\.nuget\\packages\\",
+      "outputPath": "D:\\login\\C1.SE06.BE\\login.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Son\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KHOA\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7957,17 +7957,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\RETP.app.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.app\\RETP.app.csproj"
+            "D:\\login\\C1.SE06.BE\\login.app\\RETP.app.csproj": {
+              "projectPath": "D:\\login\\C1.SE06.BE\\login.app\\RETP.app.csproj"
             },
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.data\\RETP.data.csproj"
+            "D:\\login\\C1.SE06.BE\\login.data\\RETP.data.csproj": {
+              "projectPath": "D:\\login\\C1.SE06.BE\\login.data\\RETP.data.csproj"
             },
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj"
+            "D:\\login\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj": {
+              "projectPath": "D:\\login\\C1.SE06.BE\\login.Utilities\\RETP.Utilities.csproj"
             },
-            "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
-              "projectPath": "C:\\Users\\Son\\OneDrive\\Desktop\\Cap1\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj"
+            "D:\\login\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj": {
+              "projectPath": "D:\\login\\C1.SE06.BE\\login.ViewModels\\RETP.ViewModels.csproj"
             }
           }
         }

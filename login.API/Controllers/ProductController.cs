@@ -25,8 +25,8 @@ namespace RETP.API.Controllers
                 return BadRequest(ModelState);
             var result = await _publicproductService.Create(request);
             if (result == 0)
-                return BadRequest("uncessfull");
-            return Ok();
+                return BadRequest("unsucessfull");
+            return Ok("sucessfull");
         }
     }
 }
