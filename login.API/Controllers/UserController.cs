@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace RETP.API.Controllers
 {
     [Route("api/[controller]")]
@@ -21,7 +22,7 @@ namespace RETP.API.Controllers
         }
         [HttpPost("authenticate")]
         [AllowAnonymous]
-        public async Task<IActionResult> Authenticate([FromForm] loginRequest request)
+        public async Task<IActionResult> Authenticate([FromBody] loginRequest request)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -30,12 +31,12 @@ namespace RETP.API.Controllers
             {
                 return BadRequest("User or password is incorrect");
             }
-            return Ok(new { token = resultToken });
+            return Ok( "Đăng Nhập Thành Công" );
 
         }
         [HttpPost("register")]
         [AllowAnonymous]
-        public async Task<IActionResult> Register([FromForm] registerRequest request)
+        public async Task<IActionResult> Register([FromBody] registerRequest request)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
@@ -44,7 +45,8 @@ namespace RETP.API.Controllers
             {
                 return BadRequest("Register is unsuccessful");
             }
-            return Ok();
+            return Ok("Register successful");
         }
+        
     }
 }

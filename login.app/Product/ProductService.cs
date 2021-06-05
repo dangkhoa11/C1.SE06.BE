@@ -21,10 +21,12 @@ namespace RETP.app.Product
         {
             var product = new Products()
             {
-                RE_ID = request.re_id,
+
+               // RE_ID=request. re_id,
                 Title = request.title,
                 Description = request.description,
-                Address  =request .address,
+                Address = request.address,
+                
                
 
             };

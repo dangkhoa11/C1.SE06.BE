@@ -19,7 +19,7 @@ namespace RETP.API.Controllers
             _publicproductService = publicproductService;
         }
         [HttpPost]
-        public async Task<IActionResult> Create([FromForm] ProductCreateRequest request)
+        public async Task<IActionResult> Create([FromBody] ProductCreateRequest request)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
